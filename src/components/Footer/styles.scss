@@ -1,7 +1,7 @@
 .footer {
     display:flex;
     position: fixed;
-    height: 6rem;
+    height: 1rem;
     background-color: rgb(8, 7, 7);
     color: white;
     bottom: 0;
@@ -9,6 +9,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    font-size: 10px;
     .wrap {
         max-width: 1450px;
         padding: 20px 10px;

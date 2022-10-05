@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "harry_p";
+    src: local("harry_p"),
+     url('./../../../assets/fonts/harry_p/HARRYP__.TTF') format("truetype");
+    font-weight: bold;
+}  
+
+.ssPicture {
+    height: 20em;
+    width: 20em;
+    position: absolute;
+    top: 380%;
+    right: 13%;
+    border-radius: 50px;
+    box-shadow: 0px 0px 50px 0px rgb(253, 96, 174);
+    float: right
+}
+
+.ssContent {
+    float: left;
+    position: absolute;
+    top: 362%;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+    left: 6%
+}
+
+.ssName {
+    font-size: 6.5em;
+    color: #ffffff;
+    font-family: 'harry_p', 'sans-serif';
+    text-shadow: 2px 10px 10px rgb(253, 96, 174);
+    text-align: center;
+    padding: 8px 25px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    word-wrap: normal;
+    position: absolute;
+    top: 80%
+}
+
+.ssShopButton {
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 120%;
+    background: rgb(255, 186, 220);
+    left: 35%;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(253, 96, 174);
+}
+
+.ssShopButton:hover {
+    background: rgb(252, 169, 211);
+    box-shadow: 0px 0px 30px 0px rgb(253, 96, 174);
+}

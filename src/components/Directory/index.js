@@ -1,33 +1,20 @@
 import React from 'react';
-import ShopMen from './../../assets/shopMens.JPG';
-import ShopWomen from './../../assets/shopWomens.JPG';
+// import bg from './../../assets/daBackground.webp';
+import bg from './../../assets/dabg4.webp';
+// import bg from './../../assets/daBg.jpg';
+// import bg from './../../assets/dabg3.jpg';
 import './styles.scss';
+import './../../assets/fonts/harry_p/HARRYP__.TTF'
 
 const Directory = props => {
     return (
-        <div className="directory">
-            <div className="wrap">
-                <div
-                    className="item"
-                    style={{
-                        backgroundImage: `url(${ShopWomen})`
-                    }}
-                >
-                    <a>
-                        Women
-                    </a>
-                </div>
-                <div
-                    className="item"
-                    style={{
-                        backgroundImage: `url(${ShopMen})`
-                    }}
-                >
-                    <a>
-                        Men
-                    </a>
-                </div>
-            </div>
+        <div
+            className="directory"
+            style={{
+                backgroundImage: `url(${bg})`
+            }}
+        >
+         <h1 className="front-text">Welcome to the <span className='diagon-alley'>Diagon Alley</span>, witches and wizards!</h1>
         </div>
     );
 };
